@@ -1,0 +1,16 @@
+# Everything weeks 1 to 3 need. Later weeks add to this file as they arrive.
+pytest>=9.0
+
+# The course's own packages, `llm` and `desk`, installed in place so that
+# `from desk.app import take_turn` works from any folder.
+-e .
+
+# Week 1 - behind an API
+fastapi>=0.143
+uvicorn>=0.54
+httpx>=0.28
+
+# Talking to a real model. Both are installed so you can switch with one setting.
+anthropic>=1.13
+openai>=3.29
+python-dotenv>=1.0
