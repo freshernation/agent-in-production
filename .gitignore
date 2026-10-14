@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.env
+.DS_Store
+.vscode/
+_variant_*
+
+# Files the exercises create when you run them by hand
+notes.json
+memory.json
+trace.json
+
+# --- Instructor materials -------------------------------------------------
+# instructor/ holds the reference solutions and the runbooks. It MUST NOT reach
+# the repo your students clone. Keep it in its own private repository.
+instructor/
+
+# Databases and outboxes the exercises create when you run them by hand
+*.db
+*.sqlite
+outbox.json
+
+# Planning material - it lives in the instructor repository
+PLAN.md
