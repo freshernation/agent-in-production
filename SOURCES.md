@@ -71,6 +71,29 @@ Need something that is not here? `ai/librarian.md`.
 
 **Ignore for now:** Kubernetes, Terraform, canary deploys.
 
-## Weeks 6 to 8
+## Week 6 — Keep it up
 
-Chosen when each week is published.
+| Read | Why |
+|---|---|
+| [Google SRE workbook — Alerting on SLOs](https://sre.google/workbook/alerting-on-slos/) | What makes an alert worth waking for |
+| [Martin Fowler — CircuitBreaker](https://martinfowler.com/bliki/CircuitBreaker.html) | Stop calling what is broken |
+| [Claude — Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) | The prefix rule, the minimum length, the prices |
+| [Google SRE book — Postmortem culture](https://sre.google/sre-book/postmortem-culture/) | How to write an incident without blame |
+
+**Ignore for now:** Prometheus, Grafana, on-call tooling, Redis.
+
+## Week 7 — Connect it, and attack it
+
+| Read | Why |
+|---|---|
+| [MCP — Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | Hosts, clients, servers, and what crosses between them |
+| [MCP Python SDK — Get started](https://py.sdk.modelcontextprotocol.io/get-started/) | The server and client you write, in the SDK's own words |
+| [MCP — Security best practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) | What a server can do to you |
+| [Simon Willison — The lethal trifecta](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) | The combination of tools to avoid |
+| [W3C — Trace Context](https://www.w3.org/TR/trace-context/) | The one header that joins two traces |
+
+**Ignore for now:** MCP over HTTP with OAuth, MCP registries, red-teaming tools.
+
+## Week 8 — The production review
+
+No new reading. Reread what you would cite in your own review.

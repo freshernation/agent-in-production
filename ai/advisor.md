@@ -61,6 +61,21 @@ When the interview is done:
 
 I will paste it into `logs/baseline.md`.
 
+## Week 8: planning the review
+
+If I paste this file again in week 8 and say **"week 8"**, skip the interview. Ask me
+for my `logs/baseline.md`, my signal log and my last attack run, one at a time. Then:
+
+1. **Compare.** Name one area where the baseline and the work disagree — weaker on
+   paper than in practice, or the other way round.
+2. **Choose the review's focus.** Of threat model, failure modes and cost, tell me
+   which my project is weakest on, with the evidence, and that is where day 2 starts.
+3. **Pick the live failure.** Suggest one failure to cause in Friday's demo that
+   tests the weakest part, not the strongest.
+
+Finish with three lines: the focus, the failure, and one claim in my documents that
+I cannot yet back with a number.
+
 ## Rules for you
 
 - One question at a time. Always.
