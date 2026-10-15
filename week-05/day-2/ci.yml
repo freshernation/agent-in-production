@@ -1,0 +1,5 @@
+# Your workflow. On every push and every pull request: check out the code, set up
+# Python 3.12, install requirements.txt, and run `python checks.py`.
+#
+# When it works, copy it to .github/workflows/ci.yml at the top of your
+# repository - GitHub reads workflows only from there.

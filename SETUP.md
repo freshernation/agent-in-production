@@ -57,10 +57,14 @@ Your instructor reads every baseline before Monday.
 Weeks 1 to 3 use the fake model and need no key. Week 4 needs:
 
 - a key for Claude or OpenAI in `.env` — copy `.env.example` and fill in one provider
-- a free tracing account — named here when week 4 is published
+- a free [Langfuse Cloud](https://cloud.langfuse.com) account on the Hobby plan, with one
+  project. Put its keys in `.env` as `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` and
+  `LANGFUSE_HOST`. The Hobby plan keeps traces for a limited time, so export the
+  screenshots your reports need in the week you make them
 
 ## 7. Before week 5: Docker and a host
 
 Week 5 builds a container and deploys it. You need Docker running on your laptop, and
-a free account on the host your instructor names. If Docker will not run on your
-machine, tell your instructor in week 3, not in week 5.
+a free account on the host your instructor names — one that builds from a Dockerfile,
+gives you a deploy hook URL, and can attach a persistent disk. If Docker will not run
+on your machine, tell your instructor in week 3, not in week 5.

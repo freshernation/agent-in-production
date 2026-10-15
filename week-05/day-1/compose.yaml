@@ -1,0 +1,8 @@
+# Your Compose file. Two services and one named volume:
+#   api      built from this folder, runs the server, publishes the port,
+#            restarts unless stopped, has a healthcheck on /health
+#   worker   built from this folder, runs `python3 run_worker.py`, restarts
+#   both     get DATABASE_URL=sqlite:////data/desk.db and mount the volume at /data
+#            and take DESK_KEYS, DESK_ROLES and the model key from the
+#            environment with ${...} - never written in this file
+#   volume   `data`, so the database outlives every container
