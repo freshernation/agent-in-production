@@ -1,0 +1,13 @@
+# Your workflow, grown from day 2. Two jobs:
+#
+#   checks   on every push and pull request: Python 3.12, install, python checks.py
+#
+#   deploy   needs: checks - so it never runs if checks failed
+#            only on a push to main:  if: github.ref == 'refs/heads/main'
+#            1. trigger your host's deploy hook, kept in a secret:
+#                 curl -fsS -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
+#            2. wait for the new release, then check it is the one you meant:
+#                 python check_live.py "${{ vars.LIVE_URL }}" "${{ github.sha }}"
+#               (set VERSION to the commit on your host, so /health reports it)
+#
+# Copy it to .github/workflows/ci.yml when it works.

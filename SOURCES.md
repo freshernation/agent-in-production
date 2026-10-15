@@ -50,7 +50,27 @@ Need something that is not here? `ai/librarian.md`.
 
 **Ignore for now:** Celery, Redis, message brokers.
 
-## Weeks 4 to 8
+## Week 4 — See inside it
 
-Chosen when each week is published. Hosting, tracing and MCP change too often to pick
-them in advance.
+| Read | Why |
+|---|---|
+| [Langfuse — Observability overview](https://langfuse.com/docs/observability/overview) | What a trace, a span and a generation are |
+| [Langfuse — Python SDK instrumentation](https://langfuse.com/docs/observability/sdk/python/instrumentation) | What `langfuse_client.py` does, call by call |
+| [Google SRE book — Monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) | Why the failures are the records that matter |
+
+**Ignore for now:** OpenTelemetry directly, sampling, dashboards.
+
+## Week 5 — Ship it on every push
+
+| Read | Why |
+|---|---|
+| [Docker — Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | The build cache, and not running as root |
+| [GitHub — Quickstart for Actions](https://docs.github.com/en/actions/get-started/quickstart) | Where a workflow lives and how to read a run |
+| [The Twelve-Factor App — Config](https://12factor.net/config) | Why every difference is a setting |
+| [Google SRE book — Release engineering](https://sre.google/sre-book/release-engineering/) | What a release process is for |
+
+**Ignore for now:** Kubernetes, Terraform, canary deploys.
+
+## Weeks 6 to 8
+
+Chosen when each week is published.
