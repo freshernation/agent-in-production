@@ -33,9 +33,9 @@ with a key. No network, no key, no cost — so it can run on every push.
 ### Why not the evals?
 
 Your evals mean something only against a real model, which costs money and needs a
-key in CI. They join the checks in week 7, with the key held as a secret. Until then,
-a green CI means "the code does what the tests say", not "the agent is good". Know
-which one you are claiming.
+key in CI. In week 7 the attack suite joins CI that way, with the key held as a secret.
+Until then, a green CI means "the code does what the tests say", not "the agent is
+good". Know which one you are claiming.
 
 ### A workflow lives in `.github/workflows/`
 

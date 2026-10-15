@@ -1,0 +1,8 @@
+# Start from your week-06/milestone/ci.yml, and add a third job between them.
+#
+#   attacks   needs checks; only on a push to main (it costs money);
+#             env: AGENT_PROVIDER claude (or your provider), the provider's key
+#             from a SECRET, and ATTACK_LIMIT "0.0";
+#             steps: checkout, Python 3.12, install, python run_attacks.py
+#
+#   deploy    now needs both: needs: [checks, attacks]

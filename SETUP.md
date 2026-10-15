@@ -68,3 +68,16 @@ Week 5 builds a container and deploys it. You need Docker running on your laptop
 a free account on the host your instructor names — one that builds from a Dockerfile,
 gives you a deploy hook URL, and can attach a persistent disk. If Docker will not run
 on your machine, tell your instructor in week 3, not in week 5.
+
+## 8. Before week 6: a second provider and a webhook
+
+Week 6 falls back to a second model provider when the first is down, so you need a
+key for the other one — OpenAI if your primary is Claude, or the other way round. And
+an incoming webhook that reaches your phone: a Slack workspace of your own, with an
+incoming webhook, is enough.
+
+## 9. Before week 7: a CI secret and an MCP host
+
+Week 7 runs the attack suite in CI with a real model. Add your provider's key to your
+repository as a secret (Settings → Secrets and variables → Actions). You also need an
+MCP host to try your MCP server in — Claude Code, Claude Desktop, or any other.

@@ -1,0 +1,7 @@
+# Start from your week-05/milestone/compose.yaml.
+#
+#   - api and worker: also pass FALLBACK_PROVIDER and OPENAI_API_KEY (or whichever
+#     key your fallback provider needs); api also passes DAILY_BUDGET
+#   - a third service, alerts, built like the worker, running
+#     ["python3", "run_alerts.py"], with DATABASE_URL and ALERT_WEBHOOK_URL,
+#     on the same data volume

@@ -20,3 +20,6 @@ langfuse>=4,<5
 
 # Week 5 - the Postgres driver, used by database.py and the deep track
 psycopg[binary]>=3.3
+
+# Week 7 - serving and using tools over MCP
+mcp>=2.2,<3

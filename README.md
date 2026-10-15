@@ -48,7 +48,7 @@ No editing on the server.
 | 4 | See inside it | Every request traced, costed and rated; a bad trace becomes an eval case |
 | 5 | Ship it on every push | **Project 1** — deployed by CI, behind a gate that can say no |
 | 6 | Keep it up | Alerts, a fallback when the model is down, a cache, an incident write-up |
-| 7 | Connect it, and attack it | Desk's tools over MCP, and the attack suite against the live service |
+| 7 | Connect it, and attack it | Desk's tools over MCP, and the attack suite gating every deploy |
 | 8 | The production review | **Project 2** — a live system, a written review, and a defence |
 
 Weeks 1 to 3 run entirely on your laptop with a fake model. A real model key is
