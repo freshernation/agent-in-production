@@ -7,7 +7,7 @@ same three methods. Run it once, by hand, against your own project:
 
     pip install "langfuse>=4,<5"
     export LANGFUSE_PUBLIC_KEY=pk-lf-...  LANGFUSE_SECRET_KEY=sk-lf-...
-    export LANGFUSE_HOST=https://cloud.langfuse.com
+    export LANGFUSE_BASE_URL=https://cloud.langfuse.com
 
 Your trace ids are 32 hex characters (uuid4().hex), which is exactly the form
 Langfuse uses, so they are passed through as the trace id. The id in your

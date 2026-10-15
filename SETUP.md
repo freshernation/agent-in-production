@@ -59,7 +59,7 @@ Weeks 1 to 3 use the fake model and need no key. Week 4 needs:
 - a key for Claude or OpenAI in `.env` — copy `.env.example` and fill in one provider
 - a free [Langfuse Cloud](https://cloud.langfuse.com) account on the Hobby plan, with one
   project. Put its keys in `.env` as `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` and
-  `LANGFUSE_HOST`. The Hobby plan keeps traces for a limited time, so export the
+  `LANGFUSE_BASE_URL`. The Hobby plan keeps traces for a limited time, so export the
   screenshots your reports need in the week you make them
 
 ## 7. Before week 5: Docker and a host

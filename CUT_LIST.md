@@ -5,7 +5,7 @@ Every item below is real, and every one is out.
 | Out | Why, and when to pick it up |
 |---|---|
 | **Retrieval in production** — background ingestion, an index that survives a restart | It needs two weeks of its own. Learn it after Retrieval Under Test |
-| **Agent frameworks** — LangGraph, LangChain, CrewAI | A separate course. This one runs the agent you wrote, so that every layer you add is one you can see under |
+| **Agent frameworks** — LangGraph, LangChain, CrewAI | Agent With LangGraph, a separate course. This one runs the agent you wrote, so that every layer you add is one you can see under |
 | **Multi-agent systems** | Zero to Agent Engineer, week 11 |
 | **Kubernetes, Terraform, autoscaling** | One deployment teaches what deploying is. The rest is operations training |
 | **A front end** | One HTML page at most. The course is about what is behind it |
